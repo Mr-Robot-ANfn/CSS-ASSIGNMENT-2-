@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cars {
+            background-color: silver;
+            height: 400px;
+            width: 350px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding-top: 20px;
+
+
+        }
+
+        img {}
+
+        body {
+            margin: 0;
+            padding: 0;
+
+
+        }
+
+        .scroll {
+            overflow-y: scroll;
+            height: 90px;
+        }
+        section{
+            border: 2px solid black ;
+            height: 440px;
+            width: 350px;
+            border-image-source: linear-gradient(to right, orange, yellow);
+            border-image-slice: 1;
+            position: relative;
+             border: 5px dashed orange;
+            pointer-events: none;
+            border-radius: 5px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="cars">
+            <img src="images.jpg" alt="denali cars">
+            <h2 style="text-align: center;">Premium Widget</h2>
+            <p class="scroll">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores deleniti distinctio
+                earum? Aperiam harum nesciunt, voluptas rem, commodi sed quae alias obcaecati illum perspiciatis
+                laudantium adipisci corrupti velit. Nulla possimus provident explicabo.`</p>
+
+        </div>
+        <p style="text-align: left; background-color: silver; margin-top: 0PX; width: 350px; padding-top: 0px;" class="price">$29.99
+        </p>
+    </section>
+</body>
+
+</html>
